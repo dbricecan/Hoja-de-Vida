@@ -1,0 +1,26 @@
+nav {
+  background-color: rgb(37, 37, 37);
+  color: #fff;
+  height: 60px;
+  width: 100%;  
+}
+
+.item-list {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-list li a{
+  color: #fff;
+  font-weight: 700;
+}
+
+.item-list li a:hover{
+  color: #ffc9c9;
+  transition: 0.8s;
+}
+
